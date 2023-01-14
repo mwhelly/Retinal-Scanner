@@ -76,7 +76,8 @@ Model 1 had a decent number of data per group, and included images that could ha
 
 Models were optimized by varying parameters including which original layers were frozen in the base model, image resolution used (150 to 1440 pixels), the number of dense layers and nodes/layer used, varying % dropout, optimizers used (Adam, RMSProp, or SGD), and learning rates. Each model was optimized following A/B testing with 10-30 experiments, evaluated by recall, F1 score, and accuracy.
 
-The results of the 
+The results of the 4 models were excellent:
+
 -MODEL 1: 45 disease pooled - 94% recall, 88% accuracy
 
 -MODEL 2: Diabetic Retinopathy - 94% recall, 95% accuracy
